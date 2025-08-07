@@ -1,0 +1,77 @@
+body{
+    background: #000;
+}
+.container { 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.input-section {
+    background: rgb(90, 0, 0);
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.output-section {
+    background: rgb(90, 0, 0);
+    padding: 75px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background: #ffa704;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+#input{
+    padding: 13px 36px;
+    background: 0;
+    border-radius: 10px;
+    border: 2px solid #ffa704;
+    outline: none;
+}
+.button-case-night{
+    width: 60px;
+    height: 20px;
+    background: 0;
+    border: 2px solid white;
+    border-radius: 88px;
+}
+.switch-night{
+    background:white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20000px;
+}
+.button-case-day{
+    border: 2px solid black;
+    position: relative;
+}
+.switch-day{
+    background:black;
+    position: absolute;
+    left: 40px;
+}
+.boxes-day{
+    background: greenyellow;
+    color: rgb(0, 0, 0);
+
+}
