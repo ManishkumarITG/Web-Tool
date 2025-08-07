@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-section">
+
+            <div class="navigation">
+                <label for="input">
+                    <h2>YAHA text lokhiye</h2>
+                </label>
+                <div class="button-case-night" onclick="darkMode()"  >
+                    <div class="switch-night"></div>
+                </div>
+            </div>
+            <input type="text" id="input">
+            <div class="check"><input type="checkbox">Bold</div>
+            <div class="check"><input type="checkbox">Italic</div>
+            <div class="check"><input type="radio" name="casing">UpperCase</div>
+            <div class="check"><input type="radio" name="casing">LowerCase</div>
+            <div class="check"><input type="radio" name="casing">Capitalize Each Word</div>
+            <div class="check"><input type="color">Change Color</div>
+        </div>
+        <div class="output-section">
+            <div class="output-box">
+                Apka Output yaha ayega
+            </div>
+            <button onclick="change()">Output</button>
+            <p class="count"></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
